@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="bibliotecas">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bibliotecas/TimingFramework-0.55.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bibliotecas/postgresql-42.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
