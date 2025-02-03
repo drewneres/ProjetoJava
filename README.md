@@ -26,7 +26,7 @@ Antes de executar o projeto, certifique-se de ter os seguintes itens instalados 
    - Adicione o arquivo `postgresql-42.6.0.jar` ao classpath do projeto.
 
 ### 4. **IDE**
-   - Recomenda-se o uso de uma IDE como **IntelliJ IDEA**, **Eclipse** ou **NetBeans**.
+   - Recomenda-se o uso de **NetBeans**.
 
 ---
 
