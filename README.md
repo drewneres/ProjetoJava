@@ -65,7 +65,7 @@ CREATE TABLE funcionario(
     cpf VARCHAR(255) NOT NULL,
     usuario VARCHAR(255) NOT NULL,
     senha VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL
+    email VARCHAR(255) NOT NULL UNIQUE
 );
 
 CREATE TABLE compras(
@@ -79,6 +79,10 @@ CREATE TABLE compras(
     FOREIGN KEY (id_usuario) REFERENCES clientes (id),
     FOREIGN KEY (codigo_bebida) REFERENCES bebida (codigo)
 );
+
+INSERT INTO funcionario (nome, cpf, usuario, senha, email)
+VALUES ('João Silva', '123.456.789-00', 'joa', 'senha123', 'joao@email.com');
+
 ```
 ## Configuração do Projeto
 1. Importe o Projeto na IDE
